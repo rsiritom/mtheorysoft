@@ -11,7 +11,7 @@ const Blog = () => {
                 </div>
             </div>
             <div className="container mt-5">
-                <h3><bold>Interactive Voice Ads: Using Voice Dialogue Ads to Engage Your Audience</bold></h3>
+                <h3><bold>Interactive Voice Ads: Using Voice Dialogue Ads to Engage Audience</bold></h3>
                 <br></br>
                 <p>Interactive voice ads have launched audio advertising into a groundbreaking new era. </p>
                 <p>A new wave of voice-enabled digital advertising has been slowly brewing underground since 2017. It wasn’t until the spring of 2019, however, that interactive voice ads evolved from a strategy companies simply talked about implementing down the road to something they’ve gone ahead and launched to better interact with their customers today.</p>
