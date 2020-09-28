@@ -7,7 +7,7 @@ import MobileStoreButton from 'react-mobile-store-button';
 
 export default class Product extends Component {
     render() {
-        const { id, title, url, img, price } = this.props.product;
+        const { id, title, url, urlios, img, price } = this.props.product;
         return (
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
                 <div className="card">
@@ -29,6 +29,13 @@ export default class Product extends Component {
                                     url={url}
                                     width="150px"
                                     height="50px"
+                                    linkProps={{ title: 'iOS Store Button' }}
+                                />
+                                <MobileStoreButton
+                                    store="ios"
+                                    url={urlios}
+                                    width="120px"
+                                    height="40px"
                                     linkProps={{ title: 'iOS Store Button' }}
                                 />
 

@@ -11,7 +11,7 @@ export default class Details extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                    const { company, img, url, privacyurl, info, price, title } =
+                    const { company, img, url, urlios, privacyurl, info, price, title } =
                         value.detailProduct;
                     return (
                         <div className="container py-5">
@@ -60,6 +60,15 @@ export default class Details extends Component {
                                         <MobileStoreButton
                                             store="android"
                                             url={url}
+                                            width="150px"
+                                            height="50px"
+                                            linkProps={{ title: 'iOS Store Button' }}
+                                        />
+                                        <MobileStoreButton
+                                            store="ios"
+                                            url={urlios}
+                                            width="120px"
+                                            height="40px"
                                             linkProps={{ title: 'iOS Store Button' }}
                                         />
                                     </div>
